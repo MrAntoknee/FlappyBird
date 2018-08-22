@@ -29,8 +29,7 @@ namespace Game
         // Update is called once per frame
         private void Update()
         {
-            var translation = Vector3.right * Time.deltaTime;
-            transform.Translate(translation);
+           
 
             if (Input.GetKeyDown(upKey))
                 transform.Translate(Vector3.up * Time.deltaTime);
